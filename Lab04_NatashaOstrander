@@ -1,0 +1,28 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+namespace Lab04_NatashaOstrander
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // #4 for loop using i as a counter
+                        int i; //counter
+                        for (i = 1; i <= 100; i++)
+                        {
+                            if ((i % 2) == 0)
+                            {
+                                Console.WriteLine(" i is even: " + i);
+                            }
+                            else
+                            {
+                                Console.WriteLine(" i is odd: " + i);
+                            }
+                        } //End of for loop
+            
+        } // end of Main program
+    }
+}
